@@ -19,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   min-height: 100vh;
   font-family: "Outfit", sans-serif;
 }
@@ -28,7 +29,6 @@ body {
   border-radius: 15px;
   overflow: hidden;
   display: block;
-  margin: 0 auto;
   width: 20rem;
 }
 
@@ -48,9 +48,11 @@ p {
 .main-text {
   font-weight: 700;
   font-size: 1.6rem;
+  color: hsl(218, 44%, 22%);
 }
 
 .sub-text {
   font-weight: 400;
   padding: 0 1.25rem;
+  color: hsl(220, 15%, 55%);
 }
